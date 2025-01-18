@@ -85,7 +85,7 @@ struct SingUpView: View {
             .sheet(isPresented: $viewModel.showModal) {
                 AuthFailureModal(accion: {
                     viewModel.showModal = false
-                }, messages: "El email ya está registrado. Usa uno diferente.")
+                }, messages: "El correo electronico ya está registrado. Usa uno diferente.")
                 .presentationDetents([.small])
                 .presentationDragIndicator(.hidden)
                 .presentationCornerRadius(20)

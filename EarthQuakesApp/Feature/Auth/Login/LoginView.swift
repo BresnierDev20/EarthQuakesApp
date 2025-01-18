@@ -67,7 +67,7 @@ struct LoginView: View {
                             viewModel.showModal = true
                         }
                     }) {
-                        Text("Iniciar sección")
+                        Text("Iniciar sesión")
                             .foregroundColor(.white)
                             .frame(maxWidth: .infinity)
                             .frame(height: 45)
